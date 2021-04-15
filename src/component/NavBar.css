@@ -45,3 +45,9 @@
   color: var(--primary);
   border-radius: 5px;
 }
+
+@media (max-width: 1200px) {
+  .navBar__box {
+    padding: 0 10px;
+  }
+}
