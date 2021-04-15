@@ -9,11 +9,12 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/search">
+          <Route exact path="/search">
             <NavBar />
             <h1>search</h1>
           </Route>
           <Route exact path="/">
+            <NavBar />
             <AnimeDisplay />
           </Route>
         </Switch>
