@@ -26,7 +26,16 @@ function AnimeDisplay() {
         </div>
         <div className="animeDisplay__card">
           {animeData.map(
-            ({ mal_id, image_url, title, synopsis, type, episodes, score }) => (
+            ({
+              mal_id,
+              image_url,
+              title,
+              synopsis,
+              type,
+              episodes,
+              score,
+              rated,
+            }) => (
               <AnimeCard
                 key={mal_id}
                 image_url={image_url}
@@ -35,6 +44,7 @@ function AnimeDisplay() {
                 type={type}
                 episodes={episodes}
                 score={score}
+                rated={rated}
               />
             )
           )}
