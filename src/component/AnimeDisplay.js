@@ -25,9 +25,19 @@ function AnimeDisplay() {
           </h1>
         </div>
         <div className="animeDisplay__card">
-          {animeData.map(() => (
-            <AnimeCard />
-          ))}
+          {animeData.map(
+            ({ mal_id, image_url, title, synopsis, type, episodes, score }) => (
+              <AnimeCard
+                key={mal_id}
+                image_url={image_url}
+                title={title}
+                synopsis={synopsis}
+                type={type}
+                episodes={episodes}
+                score={score}
+              />
+            )
+          )}
         </div>
       </div>
     </div>
