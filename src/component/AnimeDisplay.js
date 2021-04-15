@@ -4,7 +4,14 @@ import "./AnimeDisplay.css";
 function AnimeDisplay() {
   return (
     <div className="animeDisplay">
-      <h1>i am anime Display</h1>
+      <div className="animeDisplay__box container">
+        <div className="animeDisplay__title">
+          <h1>
+            “Whatever you do, enjoy it to the fullest. That is the secret of
+            life.” – Rider
+          </h1>
+        </div>
+      </div>
     </div>
   );
 }
