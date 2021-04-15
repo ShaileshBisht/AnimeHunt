@@ -1,0 +1,11 @@
+.search {
+  padding-top: 120px;
+}
+
+.search-box {
+  font-size: 2rem;
+  outline: none;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+}
