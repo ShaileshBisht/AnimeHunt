@@ -3,6 +3,7 @@ import "./App.css";
 import AnimeDisplay from "./component/AnimeDisplay";
 import NavBar from "./component/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Search from "./component/Search";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/search">
             <NavBar />
-            <h1>search</h1>
+            <Search />
           </Route>
           <Route exact path="/">
             <NavBar />
