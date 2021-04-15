@@ -27,6 +27,9 @@ function AnimeCard({
             <span>⭐ {score} / 10</span>
           </div>
         </div>
+        <div className="animeCard__discription">
+          <p>{synopsis}</p>
+        </div>
       </div>
     </div>
   );
