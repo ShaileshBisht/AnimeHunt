@@ -10,7 +10,7 @@ function NavBar() {
       <div className="navBar__box container">
         <div className="navBar__left">
           <div className="navBar__logo">
-            <p onClick={(e) => history.push("/")}>AniWatch</p>
+            <p onClick={(e) => history.push("/")}>AniHunt</p>
           </div>
         </div>
         <div className="navBar__right">
