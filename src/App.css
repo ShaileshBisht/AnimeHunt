@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark: #000;
+  --light: #fff;
+  --primary: #3f51b5;
+  --secondary: yellow;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;

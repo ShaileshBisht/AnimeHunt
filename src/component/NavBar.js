@@ -7,7 +7,7 @@ function NavBar() {
       <div className="navBar__box container">
         <div className="navBar__left">
           <div className="navBar__logo">
-            <p>animeKING</p>
+            <p>AniWatch</p>
           </div>
         </div>
         <div className="navBar__right">
