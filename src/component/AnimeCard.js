@@ -22,9 +22,9 @@ function AnimeCard({
           </div>
           <div className="animeCard__details">
             <p>
-              {type}/{rated}
+              {type} / {rated}
             </p>
-            <span>⭐{score}</span>
+            <span>⭐ {score} / 10</span>
           </div>
         </div>
       </div>

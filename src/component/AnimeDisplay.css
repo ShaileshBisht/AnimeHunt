@@ -9,10 +9,9 @@
 }
 
 .animeDisplay__card {
-  grid-template-rows: auto;
   padding: 20px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-flow: row dense;
+  grid-auto-flow: dense;
 }
