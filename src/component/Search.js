@@ -5,7 +5,7 @@ import AnimeCard from "./AnimeCard";
 
 function Search() {
   const [animeData, setAnimeData] = useState([]);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("attackontitan");
 
   useEffect(() => {
     const fetchData = async () => {
